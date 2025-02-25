@@ -1,0 +1,36 @@
+baseURL = 'https://b1naryFl0w.dev/'
+languageCode = 'en-us'
+title = 'b1naryFl0w.dev'
+copyright = '© 2025 <a href="https://github.com/b1naryFl0w" target="_blank">b1naryFl0w</a>'
+
+[params]
+  owner = "b1naryFl0w"
+  CenterTheme = true
+  dateFormat = "2 January 2006"
+  readingTime = true
+
+[params.logo]
+  logoText = "b1naryFl0w.dev"
+
+[languages]
+  [languages.en]
+    [languages.en.params]
+      languageName = "English"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        name = "About me"
+        url = "/about-me/"
+        weight = 2
